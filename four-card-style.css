@@ -1,0 +1,84 @@
+.four-card-section {
+  @font-face {
+    font-family: "Poppins", sans-serif;
+  }
+
+  font-family: poppins;
+  color: hsl(234, 12%, 34%);
+
+  display: inline-flex;
+  justify-content: center;
+}
+
+.header {
+  position: absolute;
+  text-align: center;
+  font-family: poppins;
+  max-width: 505px;
+}
+
+.cards {
+  margin-top: 30vh;
+
+  display: inline-flex;
+  p {
+    font-size: 15px;
+  }
+}
+
+.service-card {
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+
+  position: relative;
+  flex-direction: row;
+  font-family: poppins;
+  padding: 30px;
+  padding-top: 35px;
+  border-radius: 15px;
+  background-color: white;
+  width: 350px;
+  height: 200px;
+  border: hsl(0, 0%, 98%);
+  box-shadow: 5px 10px 18px hsl(229, 6%, 66%);
+  font-size: 15px;
+  p {
+    padding-bottom: 30px;
+  }
+}
+
+.center-column {
+  flex-direction: column;
+}
+
+.supervisor {
+  border-style: solid;
+  border-top: 2px hsl(180, 62%, 55%);
+  top: 25%;
+}
+.team-builder {
+  border-style: solid;
+  border-top: 2px hsl(0, 78%, 62%);
+}
+.karma {
+  border-style: solid;
+  border-top: 2px hsl(34, 97%, 64%);
+}
+.calculator {
+  border-style: solid;
+  border-top: 2px hsl(212, 86%, 64%);
+
+  top: 25%;
+}
+
+img {
+  position: absolute;
+  padding: 30px;
+  bottom: 0;
+  right: 0;
+}
+
+h3 {
+  font-size: 20px;
+}
